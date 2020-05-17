@@ -6,3 +6,12 @@ D:\GraduationProject\Domain\obj\Debug\netstandard2.1\Domain.AssemblyInfoInputs.c
 D:\GraduationProject\Domain\obj\Debug\netstandard2.1\Domain.AssemblyInfo.cs
 D:\GraduationProject\Domain\obj\Debug\netstandard2.1\Domain.dll
 D:\GraduationProject\Domain\obj\Debug\netstandard2.1\Domain.pdb
+E:\graduation-project\Domain\bin\Debug\netstandard2.1\Domain.deps.json
+E:\graduation-project\Domain\bin\Debug\netstandard2.1\Domain.dll
+E:\graduation-project\Domain\bin\Debug\netstandard2.1\Domain.pdb
+E:\graduation-project\Domain\obj\Debug\netstandard2.1\Domain.csprojAssemblyReference.cache
+E:\graduation-project\Domain\obj\Debug\netstandard2.1\Domain.csproj.CoreCompileInputs.cache
+E:\graduation-project\Domain\obj\Debug\netstandard2.1\Domain.AssemblyInfoInputs.cache
+E:\graduation-project\Domain\obj\Debug\netstandard2.1\Domain.AssemblyInfo.cs
+E:\graduation-project\Domain\obj\Debug\netstandard2.1\Domain.dll
+E:\graduation-project\Domain\obj\Debug\netstandard2.1\Domain.pdb

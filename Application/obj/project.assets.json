@@ -1347,23 +1347,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ngquo\\.nuget\\packages\\": {},
+    "C:\\Users\\Admin\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GraduationProject\\Application\\Application.csproj",
+      "projectUniqueName": "E:\\graduation-project\\Application\\Application.csproj",
       "projectName": "Application",
-      "projectPath": "D:\\GraduationProject\\Application\\Application.csproj",
-      "packagesPath": "C:\\Users\\ngquo\\.nuget\\packages\\",
-      "outputPath": "D:\\GraduationProject\\Application\\obj\\",
+      "projectPath": "E:\\graduation-project\\Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "E:\\graduation-project\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\ngquo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1376,11 +1376,11 @@
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "D:\\GraduationProject\\Domain\\Domain.csproj": {
-              "projectPath": "D:\\GraduationProject\\Domain\\Domain.csproj"
+            "E:\\graduation-project\\Domain\\Domain.csproj": {
+              "projectPath": "E:\\graduation-project\\Domain\\Domain.csproj"
             },
-            "D:\\GraduationProject\\Persistence\\Persistence.csproj": {
-              "projectPath": "D:\\GraduationProject\\Persistence\\Persistence.csproj"
+            "E:\\graduation-project\\Persistence\\Persistence.csproj": {
+              "projectPath": "E:\\graduation-project\\Persistence\\Persistence.csproj"
             }
           }
         }
@@ -1414,7 +1414,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
