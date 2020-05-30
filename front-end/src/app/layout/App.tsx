@@ -3,14 +3,16 @@ import React, {
   Fragment,
   useContext,
 } from "react";
+import { Switch, Redirect, HashRouter as Router } from 'react-router-dom';
 import { Container } from "semantic-ui-react";
 import "./style.css";
 import NavBar from "../../feature/nav/NavBar";
-import ActivityDashboard  from "../../feature/nav/activities/dashboard/ActivityDashboard";
+import ActivityDashboard from "../../feature/nav/activities/dashboard/ActivityDashboard";
 import { LoadingComponent } from "./LoadingComponent";
 import ActivityStore from "../stores/activityStore";
 import { observer } from 'mobx-react-lite'
-
+import Layout from '../component/Layout'
+import Loading from '../component/page/Loading'
 const App = () => {
   const activityStore = useContext(ActivityStore);
 
@@ -19,14 +21,17 @@ const App = () => {
     activityStore.loadActivities();
   }, [activityStore]); // empty array to stop useEffect
 
-  if (activityStore.loadingInitial) return <LoadingComponent />;
+  if (activityStore.loadingInitial) return <Loading />;
 
   return (
     <Fragment>
-      <NavBar />
+      <Router>
+        <Layout />
+      </Router>
+      {/* <NavBar />
       <Container style={{ marginTop: "7em" }}>
         <ActivityDashboard/>
-      </Container>
+      </Container> */}
     </Fragment>
   );
 };
