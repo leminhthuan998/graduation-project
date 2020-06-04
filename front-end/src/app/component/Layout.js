@@ -2,15 +2,17 @@ import React, { Component, Suspense } from 'react';
 import { withRouter, Switch, Route, Redirect } from 'react-router-dom'
 import FrontEndLayout from '../component/layouts/FrontendLayout'
 
+
+import './style/index.scss'
 export class LayoutPage extends Component {
-    
-    render() {        
+
+    render() {
         return (
             <div className="layout-page">
                 <Switch>
                     <Redirect from="/" to="/home" exact />
                     {/* <Route path="/admin" component={AdminLayout} /> */}
-                    <Route path="/home" component={FrontEndLayout} />
+                    <Route path="/home" component={FrontEndLayout} />                    
                 </Switch>
             </div>
         );

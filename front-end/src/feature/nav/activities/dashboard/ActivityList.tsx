@@ -7,7 +7,7 @@ const ActivityList: React.FC = () => {
   const activityStore = useContext(ActivityStore);
   const { activitiesByDate, selectActivity, deleteActivity, submitting, target} = activityStore
   return (
-    <Segment clearing>
+    <Segment  clearing>
       <Item.Group divided>
         {activitiesByDate.map((activity) => (
           <Item key={activity.id}>
