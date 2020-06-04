@@ -3,7 +3,6 @@ import { withRouter, Switch, Route, Redirect } from 'react-router-dom'
 import FrontEndLayout from '../component/layouts/FrontendLayout'
 
 
-import './style/index.scss'
 export class LayoutPage extends Component {
 
     render() {

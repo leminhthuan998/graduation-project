@@ -6,7 +6,6 @@ import Loading from './app/component/page/Loading'
 class FrontEndRoute extends Component {
     getRoute = () => {
         return HomeRoutes.map((route, index) => {
-            console.log('route', route)
             const { id, component: BaseComponent, exact, fullScreen } = route;
             return (
                 <Route
